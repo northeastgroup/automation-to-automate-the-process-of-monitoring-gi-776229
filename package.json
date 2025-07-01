@@ -1,0 +1,43 @@
+{
+  "name": "automation-to-automate-the-process-of-monitoring-github-repositories-for-n----see-full-details-in-page-content-",
+  "version": "1.0.0",
+  "description": "🤖 AI-generated Personal automation: To automate the process of monitoring GitHub repositories for n...[see full details in page content]",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest",
+    "lint": "eslint .",
+    "lint:fix": "eslint . --fix",
+    "validate": "zapier validate",
+    "push": "zapier push",
+    "dev": "zapier test"
+  },
+  "keywords": [
+    "zapier",
+    "automation",
+    "ai-generated",
+    "personal",
+    "enterprise"
+  ],
+  "author": "Enterprise AI Automation System",
+  "license": "MIT",
+  "dependencies": {
+    "zapier-platform-core": "^15.0.0"
+  },
+  "devDependencies": {
+    "jest": "^29.0.0",
+    "eslint": "^8.0.0",
+    "@eslint/js": "^8.0.0"
+  },
+  "engines": {
+    "node": ">=18.0.0"
+  },
+  "zapier": {
+    "includeInBuild": [
+      "package.json",
+      "index.js",
+      "triggers/",
+      "creates/",
+      "searches/"
+    ]
+  }
+}
